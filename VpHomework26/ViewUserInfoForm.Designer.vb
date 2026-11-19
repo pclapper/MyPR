@@ -84,6 +84,7 @@ Partial Class ViewUserInfoForm
         '
         Me.GB.Controls.Add(Me.RBFemale)
         Me.GB.Controls.Add(Me.RBMale)
+        Me.GB.Enabled = False
         Me.GB.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GB.ForeColor = System.Drawing.Color.FromArgb(CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer))
         Me.GB.Location = New System.Drawing.Point(22, 193)
@@ -118,6 +119,7 @@ Partial Class ViewUserInfoForm
         'StudentCB
         '
         Me.StudentCB.AutoSize = True
+        Me.StudentCB.Enabled = False
         Me.StudentCB.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.StudentCB.ForeColor = System.Drawing.Color.FromArgb(CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer))
         Me.StudentCB.Location = New System.Drawing.Point(140, 226)

@@ -37,7 +37,7 @@ Public Class NewUserForm
                 MessageBox.Show("Please choose a photo.")
                 Exit Sub
 
-            ElseIf GB.Text = "" Then
+            ElseIf RBMale.Checked = False And RBFemale.Checked = False Then
                 MessageBox.Show("Please select your gender.")
                 Exit Sub
 

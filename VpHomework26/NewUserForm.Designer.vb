@@ -45,11 +45,11 @@ Partial Class NewUserForm
         Me.RBFemale = New System.Windows.Forms.RadioButton()
         Me.RBMale = New System.Windows.Forms.RadioButton()
         Me.btnShowPassword = New System.Windows.Forms.Button()
+        Me.ImageList1 = New System.Windows.Forms.ImageList(Me.components)
         Me.btnUserPhotoChoose = New System.Windows.Forms.Button()
         Me.btnSaveNewUser = New System.Windows.Forms.Button()
         Me.btnCancel = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.ImageList1 = New System.Windows.Forms.ImageList(Me.components)
         CType(Me.PBUserPhoto, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GB.SuspendLayout()
         Me.SuspendLayout()
@@ -264,6 +264,14 @@ Partial Class NewUserForm
         Me.btnShowPassword.TabIndex = 22
         Me.btnShowPassword.UseVisualStyleBackColor = True
         '
+        'ImageList1
+        '
+        Me.ImageList1.ImageStream = CType(resources.GetObject("ImageList1.ImageStream"), System.Windows.Forms.ImageListStreamer)
+        Me.ImageList1.TransparentColor = System.Drawing.Color.Transparent
+        Me.ImageList1.Images.SetKeyName(0, "eye.png")
+        Me.ImageList1.Images.SetKeyName(1, "menu.png")
+        Me.ImageList1.Images.SetKeyName(2, "more.png")
+        '
         'btnUserPhotoChoose
         '
         Me.btnUserPhotoChoose.FlatAppearance.BorderSize = 0
@@ -312,14 +320,6 @@ Partial Class NewUserForm
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(444, 70)
         Me.Panel1.TabIndex = 25
-        '
-        'ImageList1
-        '
-        Me.ImageList1.ImageStream = CType(resources.GetObject("ImageList1.ImageStream"), System.Windows.Forms.ImageListStreamer)
-        Me.ImageList1.TransparentColor = System.Drawing.Color.Transparent
-        Me.ImageList1.Images.SetKeyName(0, "eye.png")
-        Me.ImageList1.Images.SetKeyName(1, "menu.png")
-        Me.ImageList1.Images.SetKeyName(2, "more.png")
         '
         'NewUserForm
         '

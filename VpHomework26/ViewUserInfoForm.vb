@@ -14,7 +14,7 @@
 
         If Gender = "Male" Then
             RBMale.Checked = True
-        Else
+        ElseIf Gender = "Female" Then
             RBFemale.Checked = True
         End If
 
@@ -30,4 +30,5 @@
         Me.Close()
         wlcomeForm.Show()
     End Sub
+
 End Class

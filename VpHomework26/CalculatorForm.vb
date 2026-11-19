@@ -32,6 +32,8 @@
             N2D = txtNumber2.Text
             ResultD = N1D / N2D
             txtResult.Text = ResultD
+        Catch ex As DivideByZeroException
+            MessageBox.Show("Can't divide by zero.")
         Catch
             MessageBox.Show("Please enter a number.")
         End Try
@@ -43,6 +45,8 @@
             N2 = txtNumber2.Text
             Result = N1 Mod N2
             txtResult.Text = Result
+        Catch ex As DivideByZeroException
+            MessageBox.Show("Can't divide by zero.")
         Catch
             MessageBox.Show("Please enter a number.")
         End Try
