@@ -1,0 +1,390 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class NewUserForm
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(NewUserForm))
+        Me.txtNewUsername = New System.Windows.Forms.TextBox()
+        Me.txtNewPassword = New System.Windows.Forms.TextBox()
+        Me.txtConfirmNewPassword = New System.Windows.Forms.TextBox()
+        Me.txtUserPhoto = New System.Windows.Forms.TextBox()
+        Me.txtLastname = New System.Windows.Forms.TextBox()
+        Me.txtFirstname = New System.Windows.Forms.TextBox()
+        Me.txtIncome = New System.Windows.Forms.TextBox()
+        Me.ContextMenuStrip1 = New System.Windows.Forms.ContextMenuStrip(Me.components)
+        Me.lblNewUsername = New System.Windows.Forms.Label()
+        Me.lblNewPassword = New System.Windows.Forms.Label()
+        Me.lblConfirmNewPassword = New System.Windows.Forms.Label()
+        Me.lblIncom = New System.Windows.Forms.Label()
+        Me.lblUserPhoto = New System.Windows.Forms.Label()
+        Me.lblFirstName = New System.Windows.Forms.Label()
+        Me.lblLastName = New System.Windows.Forms.Label()
+        Me.PBUserPhoto = New System.Windows.Forms.PictureBox()
+        Me.StudentCB = New System.Windows.Forms.CheckBox()
+        Me.GB = New System.Windows.Forms.GroupBox()
+        Me.RBFemale = New System.Windows.Forms.RadioButton()
+        Me.RBMale = New System.Windows.Forms.RadioButton()
+        Me.btnShowPassword = New System.Windows.Forms.Button()
+        Me.btnUserPhotoChoose = New System.Windows.Forms.Button()
+        Me.btnSaveNewUser = New System.Windows.Forms.Button()
+        Me.btnCancel = New System.Windows.Forms.Button()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.ImageList1 = New System.Windows.Forms.ImageList(Me.components)
+        CType(Me.PBUserPhoto, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GB.SuspendLayout()
+        Me.SuspendLayout()
+        '
+        'txtNewUsername
+        '
+        Me.txtNewUsername.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtNewUsername.Location = New System.Drawing.Point(82, 76)
+        Me.txtNewUsername.Name = "txtNewUsername"
+        Me.txtNewUsername.Size = New System.Drawing.Size(125, 23)
+        Me.txtNewUsername.TabIndex = 0
+        '
+        'txtNewPassword
+        '
+        Me.txtNewPassword.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtNewPassword.Location = New System.Drawing.Point(118, 102)
+        Me.txtNewPassword.Name = "txtNewPassword"
+        Me.txtNewPassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
+        Me.txtNewPassword.Size = New System.Drawing.Size(89, 23)
+        Me.txtNewPassword.TabIndex = 1
+        '
+        'txtConfirmNewPassword
+        '
+        Me.txtConfirmNewPassword.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtConfirmNewPassword.Location = New System.Drawing.Point(118, 128)
+        Me.txtConfirmNewPassword.Name = "txtConfirmNewPassword"
+        Me.txtConfirmNewPassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
+        Me.txtConfirmNewPassword.Size = New System.Drawing.Size(89, 23)
+        Me.txtConfirmNewPassword.TabIndex = 2
+        '
+        'txtUserPhoto
+        '
+        Me.txtUserPhoto.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtUserPhoto.Location = New System.Drawing.Point(305, 128)
+        Me.txtUserPhoto.Name = "txtUserPhoto"
+        Me.txtUserPhoto.ReadOnly = True
+        Me.txtUserPhoto.Size = New System.Drawing.Size(100, 23)
+        Me.txtUserPhoto.TabIndex = 6
+        '
+        'txtLastname
+        '
+        Me.txtLastname.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtLastname.Location = New System.Drawing.Point(305, 102)
+        Me.txtLastname.Name = "txtLastname"
+        Me.txtLastname.Size = New System.Drawing.Size(117, 23)
+        Me.txtLastname.TabIndex = 5
+        '
+        'txtFirstname
+        '
+        Me.txtFirstname.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtFirstname.Location = New System.Drawing.Point(305, 76)
+        Me.txtFirstname.Name = "txtFirstname"
+        Me.txtFirstname.Size = New System.Drawing.Size(117, 23)
+        Me.txtFirstname.TabIndex = 4
+        '
+        'txtIncome
+        '
+        Me.txtIncome.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtIncome.Location = New System.Drawing.Point(65, 154)
+        Me.txtIncome.Name = "txtIncome"
+        Me.txtIncome.Size = New System.Drawing.Size(142, 23)
+        Me.txtIncome.TabIndex = 3
+        '
+        'ContextMenuStrip1
+        '
+        Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
+        Me.ContextMenuStrip1.Size = New System.Drawing.Size(61, 4)
+        '
+        'lblNewUsername
+        '
+        Me.lblNewUsername.AutoSize = True
+        Me.lblNewUsername.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblNewUsername.ForeColor = System.Drawing.Color.FromArgb(CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer))
+        Me.lblNewUsername.Location = New System.Drawing.Point(10, 74)
+        Me.lblNewUsername.Name = "lblNewUsername"
+        Me.lblNewUsername.Size = New System.Drawing.Size(66, 15)
+        Me.lblNewUsername.TabIndex = 10
+        Me.lblNewUsername.Text = "UserName"
+        '
+        'lblNewPassword
+        '
+        Me.lblNewPassword.AutoSize = True
+        Me.lblNewPassword.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblNewPassword.ForeColor = System.Drawing.Color.FromArgb(CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer))
+        Me.lblNewPassword.Location = New System.Drawing.Point(10, 102)
+        Me.lblNewPassword.Name = "lblNewPassword"
+        Me.lblNewPassword.Size = New System.Drawing.Size(59, 15)
+        Me.lblNewPassword.TabIndex = 11
+        Me.lblNewPassword.Text = "Password"
+        '
+        'lblConfirmNewPassword
+        '
+        Me.lblConfirmNewPassword.AutoSize = True
+        Me.lblConfirmNewPassword.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblConfirmNewPassword.ForeColor = System.Drawing.Color.FromArgb(CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer))
+        Me.lblConfirmNewPassword.Location = New System.Drawing.Point(10, 133)
+        Me.lblConfirmNewPassword.Name = "lblConfirmNewPassword"
+        Me.lblConfirmNewPassword.Size = New System.Drawing.Size(102, 13)
+        Me.lblConfirmNewPassword.TabIndex = 12
+        Me.lblConfirmNewPassword.Text = "Confirm Password"
+        '
+        'lblIncom
+        '
+        Me.lblIncom.AutoSize = True
+        Me.lblIncom.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblIncom.ForeColor = System.Drawing.Color.FromArgb(CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer))
+        Me.lblIncom.Location = New System.Drawing.Point(10, 162)
+        Me.lblIncom.Name = "lblIncom"
+        Me.lblIncom.Size = New System.Drawing.Size(49, 15)
+        Me.lblIncom.TabIndex = 13
+        Me.lblIncom.Text = "Income"
+        '
+        'lblUserPhoto
+        '
+        Me.lblUserPhoto.AutoSize = True
+        Me.lblUserPhoto.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblUserPhoto.ForeColor = System.Drawing.Color.FromArgb(CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer))
+        Me.lblUserPhoto.Location = New System.Drawing.Point(242, 131)
+        Me.lblUserPhoto.Name = "lblUserPhoto"
+        Me.lblUserPhoto.Size = New System.Drawing.Size(66, 15)
+        Me.lblUserPhoto.TabIndex = 14
+        Me.lblUserPhoto.Text = "UserPhoto"
+        '
+        'lblFirstName
+        '
+        Me.lblFirstName.AutoSize = True
+        Me.lblFirstName.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblFirstName.ForeColor = System.Drawing.Color.FromArgb(CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer))
+        Me.lblFirstName.Location = New System.Drawing.Point(242, 79)
+        Me.lblFirstName.Name = "lblFirstName"
+        Me.lblFirstName.Size = New System.Drawing.Size(64, 15)
+        Me.lblFirstName.TabIndex = 17
+        Me.lblFirstName.Text = "FirstName"
+        '
+        'lblLastName
+        '
+        Me.lblLastName.AutoSize = True
+        Me.lblLastName.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblLastName.ForeColor = System.Drawing.Color.FromArgb(CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer))
+        Me.lblLastName.Location = New System.Drawing.Point(242, 106)
+        Me.lblLastName.Name = "lblLastName"
+        Me.lblLastName.Size = New System.Drawing.Size(62, 15)
+        Me.lblLastName.TabIndex = 18
+        Me.lblLastName.Text = "LastName"
+        '
+        'PBUserPhoto
+        '
+        Me.PBUserPhoto.Location = New System.Drawing.Point(305, 162)
+        Me.PBUserPhoto.Name = "PBUserPhoto"
+        Me.PBUserPhoto.Size = New System.Drawing.Size(58, 62)
+        Me.PBUserPhoto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PBUserPhoto.TabIndex = 19
+        Me.PBUserPhoto.TabStop = False
+        '
+        'StudentCB
+        '
+        Me.StudentCB.AutoSize = True
+        Me.StudentCB.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.StudentCB.ForeColor = System.Drawing.Color.FromArgb(CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer))
+        Me.StudentCB.Location = New System.Drawing.Point(142, 226)
+        Me.StudentCB.Name = "StudentCB"
+        Me.StudentCB.Size = New System.Drawing.Size(71, 19)
+        Me.StudentCB.TabIndex = 20
+        Me.StudentCB.Text = "Student"
+        Me.StudentCB.UseVisualStyleBackColor = True
+        '
+        'GB
+        '
+        Me.GB.Controls.Add(Me.RBFemale)
+        Me.GB.Controls.Add(Me.RBMale)
+        Me.GB.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GB.ForeColor = System.Drawing.Color.FromArgb(CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer), CType(CType(34, Byte), Integer))
+        Me.GB.Location = New System.Drawing.Point(24, 193)
+        Me.GB.Name = "GB"
+        Me.GB.Size = New System.Drawing.Size(112, 77)
+        Me.GB.TabIndex = 21
+        Me.GB.TabStop = False
+        Me.GB.Text = "Gender"
+        '
+        'RBFemale
+        '
+        Me.RBFemale.AutoSize = True
+        Me.RBFemale.Location = New System.Drawing.Point(6, 47)
+        Me.RBFemale.Name = "RBFemale"
+        Me.RBFemale.Size = New System.Drawing.Size(65, 19)
+        Me.RBFemale.TabIndex = 28
+        Me.RBFemale.TabStop = True
+        Me.RBFemale.Text = "Female"
+        Me.RBFemale.UseVisualStyleBackColor = True
+        '
+        'RBMale
+        '
+        Me.RBMale.AutoSize = True
+        Me.RBMale.Location = New System.Drawing.Point(6, 22)
+        Me.RBMale.Name = "RBMale"
+        Me.RBMale.Size = New System.Drawing.Size(52, 19)
+        Me.RBMale.TabIndex = 27
+        Me.RBMale.TabStop = True
+        Me.RBMale.Text = "Male"
+        Me.RBMale.UseVisualStyleBackColor = True
+        '
+        'btnShowPassword
+        '
+        Me.btnShowPassword.FlatAppearance.BorderSize = 0
+        Me.btnShowPassword.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnShowPassword.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnShowPassword.ImageKey = "eye.png"
+        Me.btnShowPassword.ImageList = Me.ImageList1
+        Me.btnShowPassword.Location = New System.Drawing.Point(206, 102)
+        Me.btnShowPassword.Name = "btnShowPassword"
+        Me.btnShowPassword.Size = New System.Drawing.Size(19, 23)
+        Me.btnShowPassword.TabIndex = 22
+        Me.btnShowPassword.UseVisualStyleBackColor = True
+        '
+        'btnUserPhotoChoose
+        '
+        Me.btnUserPhotoChoose.FlatAppearance.BorderSize = 0
+        Me.btnUserPhotoChoose.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnUserPhotoChoose.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnUserPhotoChoose.ImageKey = "more.png"
+        Me.btnUserPhotoChoose.ImageList = Me.ImageList1
+        Me.btnUserPhotoChoose.Location = New System.Drawing.Point(403, 128)
+        Me.btnUserPhotoChoose.Name = "btnUserPhotoChoose"
+        Me.btnUserPhotoChoose.Size = New System.Drawing.Size(19, 23)
+        Me.btnUserPhotoChoose.TabIndex = 23
+        Me.btnUserPhotoChoose.UseVisualStyleBackColor = True
+        '
+        'btnSaveNewUser
+        '
+        Me.btnSaveNewUser.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(127, Byte), Integer), CType(CType(211, Byte), Integer))
+        Me.btnSaveNewUser.FlatAppearance.BorderSize = 0
+        Me.btnSaveNewUser.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnSaveNewUser.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnSaveNewUser.ForeColor = System.Drawing.Color.White
+        Me.btnSaveNewUser.Location = New System.Drawing.Point(245, 241)
+        Me.btnSaveNewUser.Name = "btnSaveNewUser"
+        Me.btnSaveNewUser.Size = New System.Drawing.Size(118, 29)
+        Me.btnSaveNewUser.TabIndex = 7
+        Me.btnSaveNewUser.Text = "Save and View"
+        Me.btnSaveNewUser.UseVisualStyleBackColor = False
+        '
+        'btnCancel
+        '
+        Me.btnCancel.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(43, Byte), Integer))
+        Me.btnCancel.FlatAppearance.BorderSize = 0
+        Me.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnCancel.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnCancel.ForeColor = System.Drawing.Color.White
+        Me.btnCancel.Location = New System.Drawing.Point(365, 241)
+        Me.btnCancel.Name = "btnCancel"
+        Me.btnCancel.Size = New System.Drawing.Size(57, 29)
+        Me.btnCancel.TabIndex = 8
+        Me.btnCancel.Text = "Cancel"
+        Me.btnCancel.UseVisualStyleBackColor = False
+        '
+        'Panel1
+        '
+        Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(31, Byte), Integer), CType(CType(58, Byte), Integer), CType(CType(95, Byte), Integer))
+        Me.Panel1.Location = New System.Drawing.Point(-6, -1)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(444, 70)
+        Me.Panel1.TabIndex = 25
+        '
+        'ImageList1
+        '
+        Me.ImageList1.ImageStream = CType(resources.GetObject("ImageList1.ImageStream"), System.Windows.Forms.ImageListStreamer)
+        Me.ImageList1.TransparentColor = System.Drawing.Color.Transparent
+        Me.ImageList1.Images.SetKeyName(0, "eye.png")
+        Me.ImageList1.Images.SetKeyName(1, "menu.png")
+        Me.ImageList1.Images.SetKeyName(2, "more.png")
+        '
+        'NewUserForm
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(246, Byte), Integer), CType(CType(248, Byte), Integer))
+        Me.ClientSize = New System.Drawing.Size(434, 292)
+        Me.Controls.Add(Me.Panel1)
+        Me.Controls.Add(Me.btnCancel)
+        Me.Controls.Add(Me.btnSaveNewUser)
+        Me.Controls.Add(Me.btnUserPhotoChoose)
+        Me.Controls.Add(Me.btnShowPassword)
+        Me.Controls.Add(Me.GB)
+        Me.Controls.Add(Me.StudentCB)
+        Me.Controls.Add(Me.PBUserPhoto)
+        Me.Controls.Add(Me.lblLastName)
+        Me.Controls.Add(Me.lblFirstName)
+        Me.Controls.Add(Me.lblUserPhoto)
+        Me.Controls.Add(Me.lblIncom)
+        Me.Controls.Add(Me.lblConfirmNewPassword)
+        Me.Controls.Add(Me.lblNewPassword)
+        Me.Controls.Add(Me.lblNewUsername)
+        Me.Controls.Add(Me.txtIncome)
+        Me.Controls.Add(Me.txtFirstname)
+        Me.Controls.Add(Me.txtLastname)
+        Me.Controls.Add(Me.txtUserPhoto)
+        Me.Controls.Add(Me.txtConfirmNewPassword)
+        Me.Controls.Add(Me.txtNewPassword)
+        Me.Controls.Add(Me.txtNewUsername)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Name = "NewUserForm"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Text = "NewUserForm"
+        CType(Me.PBUserPhoto, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GB.ResumeLayout(False)
+        Me.GB.PerformLayout()
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
+    End Sub
+
+    Friend WithEvents txtNewUsername As TextBox
+    Friend WithEvents txtNewPassword As TextBox
+    Friend WithEvents txtConfirmNewPassword As TextBox
+    Friend WithEvents txtUserPhoto As TextBox
+    Friend WithEvents txtLastname As TextBox
+    Friend WithEvents txtFirstname As TextBox
+    Friend WithEvents txtIncome As TextBox
+    Friend WithEvents ContextMenuStrip1 As ContextMenuStrip
+    Friend WithEvents lblNewUsername As Label
+    Friend WithEvents lblNewPassword As Label
+    Friend WithEvents lblConfirmNewPassword As Label
+    Friend WithEvents lblIncom As Label
+    Friend WithEvents lblUserPhoto As Label
+    Friend WithEvents lblFirstName As Label
+    Friend WithEvents lblLastName As Label
+    Friend WithEvents PBUserPhoto As PictureBox
+    Friend WithEvents StudentCB As CheckBox
+    Friend WithEvents btnShowPassword As Button
+    Friend WithEvents btnUserPhotoChoose As Button
+    Friend WithEvents btnSaveNewUser As Button
+    Friend WithEvents btnCancel As Button
+    Friend WithEvents GB As GroupBox
+    Friend WithEvents RBFemale As RadioButton
+    Friend WithEvents RBMale As RadioButton
+    Friend WithEvents Panel1 As Panel
+    Friend WithEvents ImageList1 As ImageList
+End Class
